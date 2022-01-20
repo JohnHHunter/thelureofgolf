@@ -85,10 +85,11 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/videosmall.mp4");
-		background-position: top left,					center center;
+		background-image: url("images/overlay.png"), url("../../images/videosmall.mp4"), url("../../images/atTheStudio.jpg");
+
+		background-position: center,					center center;
 		background-repeat: repeat,						none;
-		background-size: auto,						cover;
+		background-size: auto,						cover, cover;
 	}
 
 	html.is-preload *, html.is-preload *:before, html.is-preload *:after {
