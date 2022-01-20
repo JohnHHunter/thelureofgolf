@@ -34,7 +34,7 @@
 						<header class="major">
 							<h2>A Streamlined Approach</h2>
 						</header>
-						<p>With 30 years of professional golf instruction under her belt, Lee Hunter has developed a streamlined approach to teaching the golf swing. If you are a skilled player looking to take your game to the next level, coach Lee will instantly identify areas of improvement and offer exercises to remide it. Just a beginner looking to enjoy the game? Lee </p>
+						<p>With 30 years of professional golf instruction under her belt, Lee Hunter has developed a streamlined approach to teaching the golf swing. If you are a skilled player looking to take your game to the next level, coach Lee will instantly identify areas of improvement and offer exercises to remide it. Just a beginner looking to enjoy the game? Lee</p>
 					</div>
 					<a href="#two" class="goto-next scrolly">Next</a>
 				</div>
@@ -49,24 +49,34 @@
 							<h2>Locations and Availability</h2>
 						</header>
 						<p>Consequat sed ultricies rutrum. Sed adipiscing eu amet interdum lorem blandit vis ac commodo aliquet vulputate.</p>
-						<ul class="icons-grid">
-							<li>
-								<span class="icon solid major fa-camera-retro"></span>
-								<h3>Magna Etiam</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-pencil-alt"></span>
-								<h3>Lorem Ipsum</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-code"></span>
-								<h3>Nulla Tempus</h3>
-							</li>
-							<li>
-								<span class="icon solid major fa-coffee"></span>
-								<h3>Sed Feugiat</h3>
-							</li>
-						</ul>
+						
+
+						<script>
+							// Initialize and add the map
+							function initMap() {
+							  // The location of Uluru
+							  const eastOrangeGolf = { lat: 40.754953, lng: -74.343107 };
+							  // The map, centered at Uluru
+							  const map = new google.maps.Map(document.getElementById("map"), {
+								zoom: 12,
+								center: eastOrangeGolf,
+							  });
+							  // The marker, positioned at Uluru
+							  const marker = new google.maps.Marker({
+								position: eastOrangeGolf,
+								map: map,
+							  });
+							}
+						</script>
+
+						<div id="map"></div>
+						<!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+						<script
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2hWu3ei9P-osbkiaBSNGT0eIqFZZM-Cs&callback=initMap&libraries=&v=weekly"
+						async
+						></script>
+
+
 					</div>
 					<a href="#three" class="goto-next scrolly">Next</a>
 				</div>
