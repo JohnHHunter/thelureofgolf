@@ -2878,7 +2878,7 @@ input, select, textarea {
 
 		#footer footer {
 			bottom: 2em;
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255);
 			left: 0;
 			position: absolute;
 			text-align: center;
@@ -2915,6 +2915,10 @@ input, select, textarea {
 						margin-left: 0;
 						padding-left: 0;
 					}
+	
+	.copyright {
+		color: rgba(255, 255, 255, 0.4);
+	}
 
 /* Large */
 
