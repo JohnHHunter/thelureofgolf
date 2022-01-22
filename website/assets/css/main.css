@@ -81,6 +81,15 @@ input, select, textarea {
 
 /* Basic */
 
+	body {
+		background: url("images/overlay.png") no-repeat center center fixed
+		, url("/website/images/atTheStudio.jpg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -96,7 +105,7 @@ input, select, textarea {
 
 		background-position: center,					center center;
 		background-repeat: repeat,						none;
-		background-size: auto,						cover, cover;
+		background-size: auto,						cover;
 	}
 
 	html.is-preload *, html.is-preload *:before, html.is-preload *:after {
