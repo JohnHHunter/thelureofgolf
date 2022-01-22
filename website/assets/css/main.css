@@ -38,7 +38,7 @@ body {
 	/* CSS specific to iOS devices */ 
 	.fixebg{
 		background: url("images/overlay.png") no-repeat center center fixed
-		, url("../../images/atTheStudio.jpg")  top;
+		, url("../../images/atTheStudioCrop.jpg")  top;
 		height:100%;
 		width:100%;
 		position: fixed;
