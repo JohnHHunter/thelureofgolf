@@ -81,9 +81,10 @@ input, select, textarea {
 
 /* Basic */
 
+	/* fix for background image streching on iOS */
 	body {
 		background: url("images/overlay.png") no-repeat center center fixed
-		, url("/website/images/atTheStudio.jpg") no-repeat center center fixed;
+		, url("../../images/atTheStudio.jpg") no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
